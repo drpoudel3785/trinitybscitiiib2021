@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/mystyle.css" />
+</head>
+<body>
+    <div id="container">
+    <!--
+        <form>
+            attributes
+                name=""
+                method="GET/POST"
+                action=""
+                enctype="multipart/form-data"
+            <label></label>
+            <fieldset></fieldset>
+            <legend></legend>
+
+            <input />
+                type=""
+                     text
+                     password
+                     radio
+                     checkbox
+                     submit
+                     reset
+                     email
+                     color
+                     date
+                     number
+                     file
+                     hidden
+            <select> </select>
+            <button></button>
+            <textarea></textarea>
+        </form>
+    -->
+
+    <form method="GET" name="login" action="" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Login</legend>
+            <label>UserName</label><br/>
+            <input type="text" name="username" placeholder="Username" /><br/>
+            <label>Password</label><br/>
+            <input type="password" name="password" placeholder="Password" /><br/>
+            <input type="submit" name="submit" value="Login"/>
+        </fieldset>
+    </form>
+    
+
+    <h2 class="myheading">User Registration Form</h2>
+    <form method="post" name="register" action="" enctype="multipart/form-data">
+        <input type="text" name="username" placeholder="Username"/><br/>
+        <input type="email" name="email" placeholder="you@domain.com"/><br/>
+        <input type="date" name="dob"/><br/>
+        <input type="radio" name="gender" value="M" checked>Male
+        <input type="radio" name="gender" value="F" >Female
+        <br/>
+        <input type="checkbox" name="php" value="php" checked>php
+        <input type="checkbox" name="java" value="java">java 
+        <input type="checkbox" name="asp" value="asp">asp
+        <br/>
+        <select name="city" size="1">
+            <option value="kathmandu">Kathmandu</option>
+            <option value="lalitpur" selected>Lalitpur</option>
+            <option value="bhaktapur">bhaktapur</option>
+        </select>
+        <br/>
+        <label for="">Photo</label><br/>
+        <input type="file" name="upload" />
+        <br/>
+        <label for="">Comments</label><br/>
+        <textarea name="comment" rows="5" cols="30">
+        </textarea>
+        <br/>
+        <input type="submit" name="submit" value="Register"/>
+        <input type="reset" name="reset" value="Cancel"/>
+    </form>
+
+</div>
+</body>
+</html>

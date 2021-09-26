@@ -1,0 +1,74 @@
+ /*
+    Universal Selector
+        */
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+
+        /* Type */
+        h1{
+            font-size:30px;
+        }
+        /*ID Selector*/
+        /* ID selector must be called by using id attribute in html element*/
+        #container{
+            width:1140px;
+            min-height:1500px;
+            background-color: chocolate;
+            margin:auto auto;
+            border: 2px solid #ffffff;
+            border-radius: 0px 20px 50px 20px;
+            
+        }
+
+         /*Type Selector for body */
+         body{
+            background-color: rgb(124, 123, 120);
+            background-image: url('../images/trek1.jpg');
+            background-repeat: no-repeat;
+            /*background-size: cover;*/
+            background-position:bottom right;
+            background-attachment: fixed;
+        }
+        
+        /* class selector*/
+        /* To apply the class selector in your page you have to call the class attributes in your html elements */
+        .myheading{
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(238, 236, 232);
+            border-bottom: 2px solid #e5e7e7 ;
+        }
+
+       
+        .banner{
+            width:1140px;
+            min-height:150px;
+            background-image: url("../images/banner1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        .row{
+            min-height: 5px;
+        }
+
+        .col100{
+            width:100%;
+        }
+        .col50{
+            width:50%;
+            float: left;
+        }
+        .menu{
+            width:100%;
+            min-height: 45px;
+            background-color: darkgoldenrod;
+            border-bottom:3px solid #e5e7e7;
+            opacity: 0.5;
+        }
+        .menu:hover{
+           
+            opacity: 1;
+        }

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--
+Path
+1. Absolute Path == Full URL
+2. Relative Path  == Partial URL
+
+     three case
+       1. you need to enter the folder =  foldername/
+       2. you need to exit from the folder = ../
+       3. same folder  = filename.ext
+
+
+-->
+<body>
+    <a name="top"></a>
+    <h1>Welcome to the site</h1>
+
+    <!-- 
+      <a>Anchor Name</a>
+         Attributes
+            href="path"
+            name="name"
+            id="uniqueid"
+            target="_blank/_self/_parent"
+
+    Types of Hyperlinks
+       1. Pages or ULR links   //Relative Path
+       2. External URL Links   //Absolute Path
+       3. SamePage Links
+           Two steps
+            1. Define the Name (<a name="name"> another metod is <a id="top">)
+            2: Write a Link
+               eg <a href="#top">Top</a>
+               <a href="index.html#middle">Middle</a>
+
+       4. Email Link
+    -->
+
+    <nav>
+        <!-- URL LINKs-->
+        <a href="index.html">Home</a> |
+        <a href="pages/about.html">About</a>|
+        <a href="pages/contact.html">Contact</a> | 
+        <a href="#address">Address</a> | 
+         <!-- External URL LInks-->
+        <a href="https://trinitycollege.edu.np/" target="_blank">Tritity College</a> |
+        <!-- Email Link-->
+        <a href="mailto:info@drpoudel.com.np?subject=Website Inquiry&body=This is default messsge pls delete it and write your owm message">Email Us</a>
+    </nav>
+
+
+    <p align="justify">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas aperiam hic architecto? Porro doloribus error cumque invento
+        
+        
+        <br/>
+        <br/>
+        <br/>
+
+        <!--
+        -->
+        
+        
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; re alias ipsa esse ea quis recusandae, assumenda voluptatum commodi molestiae ipsam aperiam culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, architecto   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             odit magni, ipsum quaerat laboriosam mollitia voluptatibus aliquam ab debitis expedita explicabo doloremque ipsa fugit soluta velit fuga. In, ab.
+    </p>
+
+
+    <p>&euro; 102.</p>
+    <p>&dollar; 102</p>
+    <p>&pound; 102</p>
+
+    <p>
+        &copy; 2021, yoursite.com, All Right &reg; Reserved &trade; 
+    </p>
+    <blockquote>     <blockquote>
+
+        <p>
+
+            <font size="4" color="green" face="Impact"> 
+
+                <img src="images/trek1.jpg" hspace="10px" vspace="10px" align="left" width="150px" alt="Trekking 1" title="trekking 1"/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque animi, aperiam temporibus in necessitatibus similique perferendis dolore cupiditate a? Assumenda quasi natus dolorum minus nobis saepe dolor maxime cumque velit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sunt labore, quaerat<mark> perspiciatis aperiam doloremque rerum soluta culpa. Id, eius blanditiis! Nisi quia tempora debitis cupiditate quibusdam aliquam, aperiam Lorem ipsum dolor sit, amet consectetur</mark>
+            </font> 
+            <font size="7" color="red" face="Courier New">adipisicing elit. Blanditiis voluptates sequi consectetur delectus libero fuga aspernatur distinctio voluptatem minus maiores illum commodi quasi ex praesentium, adipisci quidem consequatur laudantium necessitatibus!lorem        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eveniet quisquam vero expedita deserunt corrupti unde ducimus provident ipsum, repudiandae fugiat distinctio blanditiis odit labore tempora repellat rerum incidunt voluptatum.
+                </font>
+        </p>
+    </blockquote>    </blockquote>
+
+    <a name="address"></a>
+    <pre>
+    Sn          name            Address         Phone
+    1           Dharma          Kathmandu       3458304860
+    2           Smrity          Kathmandau      4409583095
+    3           Rahul           Laitpur         430506777
+    4           Sandesh         Bhaktapur       9458305
+</pre>
+
+The <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr> started working on HTML5 in 2004.
+<hr width="80%" align="left" color="red" size="2" noshade />
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repudiandae mollitia, est officia tempora eaque accusamus minima inventore perferendis, dolore eum cumque adipisci. Architecto labore a vel nam enim. Temporibus.lorem</p>
+
+<!-- LIST
+    1. Order LIst
+    2. Unorder List
+    3. Description/Defination List
+    #ORDER LIST
+    <ol>  
+      <li>dkfl</li>  
+      <li>dkfl</li>  
+      <li>dkfl</li>  
+      <li>dkfl</li>  
+    </ol>
+
+    attribtes
+       type="1/A/a/I/i"
+       start="number"
+-->
+
+<h2>Name of the Students</h2>
+<ol type="I" start="5">
+    <li>Sacar Shrestha</li>
+    <li>Sandesh Pandey</li>
+    <li>Smrity Mulmi</li>
+    <li>Rahul Ingnam</li>
+</ol>
+
+
+<!-- Unoder List
+    It is used for bulltes
+    <ul>
+
+        <li>    </li>
+
+    </ul>
+
+    #attributes
+    type="disc/circle/square"
+-->
+
+<h2>Name of the Students</h2>
+<ul type="square">
+    <li>Sacar Shrestha</li>
+    <li>Sandesh Pandey</li>
+    <li>Smrity Mulmi</li>
+    <li>Rahul Ingnam</li>
+</ul>
+
+<!--Description LIst
+    <dl>
+        <dt></dt>
+        <dd></dd>
+
+        <dt></dt>
+        <dd></dd>
+    </dl>
+-->
+<h2>Description List</h2>
+<dl>
+    <dt>Computer</dt>
+    <dd>Computer is an Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis esse, nemo doloremque laudantium laborum placeat culpa quasi architecto reiciendis molestiae veritatis lorem      lorem tempora, repellendus id eos expedita cumque eius perferendis accusantium? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores explicabo amet iste tempora similique esse voluptates vel quam error deleniti, enim dolorum, commodi dolorem voluptas placeat numquam veritatis, aspernatur eligendi?
+    </dd>
+
+
+    <dt>Mouse</dt>
+    <dd>Mouse is an Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis esse, nemo doloremque laudantium laborum placeat culpa quasi architecto reiciendis molestiae veritatis lorem      lorem tempora, repellendus id eos expedita cumque eius perferendis accusantium? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores explicabo amet iste tempora similique esse voluptates vel quam error deleniti, enim dolorum, commodi dolorem voluptas placeat numquam veritatis, aspernatur eligendi?
+    </dd>
+</dl>
+<!-- Menu Concept without css-->
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>About Tritity
+            <ul>
+                <li>Introduction</li>
+                <li>Vision, Mission </li>
+                <li>TimeLine</li>
+                <li>Facts</li>
+            </ul>
+        </li>
+        <li>Academic Programs</li>
+        <li>Trinity People</li>
+        <li>Messages</li>
+    </ul>
+    
+</nav>
+
+<!-- INserting Images on webpage-->
+<!--
+
+    <img />
+    attributes
+    src="path"
+    alt="alternative test"
+    title="title of the image"
+    align="left/right/center"
+    hspace="2px"
+    vspace="2px"
+    width=""
+    height=""
+-->
+
+<img src="images/banner3.jpg" width="960px" height="200px"/>
+
+<!--
+   <table>
+   </table>
+      attributes
+         width=""
+         height=""
+         bgcolor=""
+         background=""
+         align=""
+         cellpadding=""
+         cellspacing=""
+         border=""
+
+   <tr></tr>
+ 
+      width=""
+      height=""
+      align="left/right/center"
+      valing="top/middle/bottom"
+      rowspan=""
+      colspan=""
+
+   <thead></thead>
+   <tbody></tbody>
+   <tfoot></tfoot>
+
+   <caption></caption>
+
+-->
+<table border="1" cellpadding="10" cellspacing="5" width="950px">
+    <tr>
+        <th>SN</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Phone</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Nisha Shrestha</td>
+        <td>Kathmandu</td>
+        <td>7643568023</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Sandesh Pandey</td>
+        <td>Kathmandau</td>
+        <td>233467534</td>
+    </tr>
+</table>
+
+
+<table border="1" cellpadding="10" cellspacing="5" width="950px">
+    <tr>
+        <th rowspan="2">SN</th>
+        <th colspan="2">Name</th>
+        <th rowspan="2">Address</th>
+        <th rowspan="2">Phone</th>
+    </tr>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Nisha</td>
+        <td>Shrestha</td>
+        <td>Kathmandu</td>
+        <td>7643568023</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Sandesh</td>
+        <td>Pandey</td>
+        <td>Kathmandau</td>
+        <td>233467534</td>
+    </tr>
+</table>
+
+<div>
+    <p align="right"><a href="#top">Top</a></p>
+</div>
+
+
+
+    
+</body>
+</html>

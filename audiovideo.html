@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Video</title>
+
+    <style>
+        /*
+        Universal Selector
+        */
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+
+        /* Type */
+        h1{
+            font-size:30px;
+        }
+        /*ID Selector*/
+        /* ID selector must be called by using id attribute in html element*/
+        #container{
+            width:1140px;
+            min-height:500px;
+            background-color: chocolate;
+            margin:auto auto;
+        }
+        /* class selector*/
+        /* To apply the class selector in your page you have to call the class attributes in your html elements */
+        .myheading{
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(238, 236, 232);
+            border-bottom: 2px solid #e5e7e7 ;
+        }
+        
+    </style>
+</head>
+<body style="background-color:#00ccee; margin:0px; padding:0px">
+    <div id="container">
+<h1>Welcome to the site</h1>
+    <audio  controls  loop preload="preload">
+        <source src="media/19thfloor.mp3" type="audio/mpeg">
+        <!--<source src="myAudio.ogg" type="audio/ogg">-->
+        <p>Your browser doesn't support HTML5 audio. Here is
+           a <a href="myAudio.mp3">link to the audio</a> instead.</p>
+      </audio>
+    
+
+
+
+      <video controls   width="450px"  loop poster="images/banner.jpg" >
+        <source src="media/Banner.mp4" type="video/mp4">
+      
+        <p>Your browser doesn't support HTML5 video. Here is
+           a <a href="myVideo.mp4">link to the video</a> instead.</p>
+      </video>
+      <h2 class="myheading">My Documents Heading</h2>
+      <p style="color:blueviolet; font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quae aliquid odit placeat, voluptatibus aliquam commodi explicabo omnis qui deserunt dolor reprehenderit voluptas quam, temporibus exercitationem excepturi ex, minus facere?</p>
+
+
+      <!--
+          CSS 
+             types
+             1. inline css  // style attributes on each html element eg style="background-color:#ffccee;"
+             2. embedded/Internal css  headsection <style>  </style>
+             3. external css  // seperate file.css //that should be link        
+      -->
+
+      </div>
+
+
+</body>
+</html>

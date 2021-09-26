@@ -1,0 +1,14 @@
+*{
+    margin:0px;
+    padding:0px
+}
+body{
+    background-color: #cceeff;
+}
+.container{width:1140px; min-height:500px;margin:auto auto;}
+.row{    min-height:5px;}
+.col100{    width:100%;}
+.col75{width:75%; min-height:10px; float:left;}
+.col50{width:50%; min-height:10px; float:left;}
+.col33{width:33.33%; min-height:10px; float:left;}
+.col25{width:25%; min-height:10px; float:left;}
