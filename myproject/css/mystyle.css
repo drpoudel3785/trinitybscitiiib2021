@@ -5,6 +5,13 @@
 body{
     background-color: #cceeff;
 }
+.banner{
+    width:100%;
+    min-height:150px;
+    background-image: url("../images/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .container{width:1140px; min-height:500px;margin:auto auto;}
 .row{    min-height:5px;}
 .col100{    width:100%;}
@@ -12,3 +19,27 @@ body{
 .col50{width:50%; min-height:10px; float:left;}
 .col33{width:33.33%; min-height:10px; float:left;}
 .col25{width:25%; min-height:10px; float:left;}
+
+.imgres{
+    width:100%;
+    height: auto;
+}
+.clear{clear:both;}
+@media screen and (max-width:960px)
+{
+    body{background-color: darkgoldenrod;}
+    .container{width: 940px;}
+    .colmd100{width:100%;}
+    .colmd75{width:75%;float:left;}
+    .colmd50{width:50%;float:left;}
+    .colmd25{width:25%;float:left;}
+}
+
+@media screen and (max-width:540px){
+    body{background-color:darksalmon;}
+    .container{width: 500px;}
+    .colsm100{width:100%;}
+    .colsm75{width:75%;float:left;}
+    .colsm50{width:50%;float:left;}
+    .colsm25{width:25%;float:left;}
+}
