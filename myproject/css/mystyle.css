@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container{width:1140px; min-height:500px;margin:auto auto;}
+.container{width:1140px; min-height:1500px;margin:auto auto;}
 .row{    min-height:5px;}
 .col100{    width:100%;}
 .col75{width:75%; min-height:10px; float:left;}
@@ -23,6 +23,34 @@ body{
 .imgres{
     width:100%;
     height: auto;
+}
+
+.social
+{
+    width:50px;
+    height:150px;
+    position:fixed;
+    top:220px;
+    right:0px;
+    background-color: crimson;
+}
+
+.social ol { 
+    list-style-type:none;
+}
+.social ol li{
+    font-size:2.5em;
+    color:#ffffff;
+    padding:2px;
+}
+.topmenu{}
+.topmenu nav{}
+.topmenu nav ul{
+    list-style-type:none;
+    
+}
+.topmenu nav ul li{
+    display:inline-block;
 }
 .clear{clear:both;}
 @media screen and (max-width:960px)
